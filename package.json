@@ -1,5 +1,5 @@
 {
-  "name": "@ice/stark-data",
+  "name": "microser-data",
   "version": "0.1.2",
   "description": "icestark-data is a JavaScript library for icestark, used for communication.",
   "scripts": {
