@@ -20,7 +20,7 @@ class Event implements Hooks{
         this.eventEmitter = {}
     }
 
-    emit(key: string, ...args) {
+    emit(key: string, ...args: any[]) {
         const keyEmitter = this.eventEmitter[key]
 
         if(!isArray(keyEmitter) || (isArray(keyEmitter) && keyEmitter.length === 0)) {

@@ -1,0 +1,14 @@
+{
+  "name": "microser-data",
+  "scope": "microser-data",
+  "version": 2,
+  "builds": [{ "src": "./dist/**", "use": "@now/static" }],
+  "build": {
+    "env": {
+      "NOW_DEPLOY": "true"
+    }
+  },
+  "github": {
+    "enable": false
+  }
+}

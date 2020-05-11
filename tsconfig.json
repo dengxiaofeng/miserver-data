@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "jsx": "react",
+    "module": "esnext",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "experimentalDecorators": true,
     "declaration": true,
     "sourceMap": true,
